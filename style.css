@@ -1,0 +1,56 @@
+.container1 > h1{
+    color: red;
+} 
+
+.container1 > a{
+    text-decoration: none;
+}
+
+.container1 > h2{
+    /* under line the para or words */
+    /* text-decoration: underline; */
+    /* upper line comes */
+    /* text-decoration: overline; */
+
+    /* for Strike the sentance or words */
+    text-decoration-line: line-through;
+    /* for secified the line  of color */
+    text-decoration-color: blue;
+    /* u can give style also */
+    text-decoration-style: dotted;
+}
+.container1 > h3{
+    /* for center the words  */
+    text-align: center;
+}
+.container1 > p{
+    text-align:justify;
+}
+
+
+.container2 > p{
+    /* UpperCase */
+    text-transform: uppercase;
+   /* lower case
+    text-transform: lowercase;
+  first letter capital
+    text-transform:capitalize; */
+}
+.container2 > #para2{
+    /* Space of the Starting index */
+    text-indent: 40px;
+    /* between all the letter provide the space */
+    letter-spacing: 2px;
+    /* between all the words provide the space */
+    word-spacing: 5px;
+    /* between all the Line provide the space */
+    line-height: 40px;
+
+}
+.container2 > h2{
+    text-align: center;
+    color: green;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-shadow: -2px 3px 1px red;
+}
