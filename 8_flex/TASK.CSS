@@ -1,0 +1,55 @@
+.outer{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer > .inner{
+
+    background-color: #212121;
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid red;
+    border-radius: 10px;
+
+}
+
+.outer > .inner >.upper> img{
+    height: 100px;
+    width: 110px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.upper > #location{
+color: aliceblue;
+}
+h2{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+.lowwer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    padding: 20px;
+    width: 400px;
+    margin: 5px;
+    height: 50px;
+    background-color: #212121;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+button :hover{
+    background-color: #313131;
+}

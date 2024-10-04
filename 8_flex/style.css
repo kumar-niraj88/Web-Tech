@@ -1,0 +1,36 @@
+
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container {
+    height: 800px;
+    width: 900px;
+    border: 2px solid rgb(91, 99, 10);
+    display: flex;
+    /* main axiex means */
+    justify-content: space-evenly;
+    /* cross axies means  */
+    align-items: center;
+    background-color: rgb(35, 42, 45);
+    border-radius: 10px;
+    box-shadow: 10PX 10PX  1000PX green;
+    
+}
+
+.container > .box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(88, 12, 170);
+    font-size:x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 225, 92);
+    border-radius: 15px;
+    box-shadow: 10PX -10PX 20PX rgb(158, 171, 158);
+       
+}

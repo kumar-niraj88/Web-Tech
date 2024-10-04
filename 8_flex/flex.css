@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.main > .container{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.main >.container > .box-{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    background-color: rgb(158, 94, 10);
+    color: white;
+    border-radius: 10px;
+    
+}
+
